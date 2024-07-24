@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <div>
       <div className="bg-black min-h-96 ">
-        <footer className=" pt-16 mx-2 md:mx-2 pb-4 sm:mx-2 md:mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 ">
-          <div className="pb-4">
+        <footer className=" pt-16 mx-2 pl-2 pb-4 sm:mx-2 md:mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 ">
+          <div className="pb-4 ">
             <div className="text-3xl font-bold text-white">Exclusive</div>
             <button className="text-xl font-semibold mt-4 text-white">
               Subscribe
@@ -37,7 +37,7 @@ export default function Footer() {
               </div>
             </span>
           </div>
-          <div className="pb-4">
+          <div className="pb-4 ">
             <div className="text-xl font-bold mb-4 text-white ">Support</div>
             <div className="mt-2 text-white">
               111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
@@ -63,7 +63,7 @@ export default function Footer() {
               <button>Shop</button>
             </div>
           </div>
-          <div className="pb-4">
+          <div className="pb-4 ">
             <div className="text-xl font-bold text-white">Quick Link</div>
             <div className="mt-2 text-white">
               <button>Privacy Policy</button>
@@ -78,7 +78,7 @@ export default function Footer() {
               <button>Contact</button>
             </div>
           </div>
-          <div>
+          <div className="pb-4">
             <div className="text-xl font-bold text-white">Download App</div>
             <div className="mt-2 text-white">
               {" "}
