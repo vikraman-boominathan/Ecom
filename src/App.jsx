@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import CreateAccount from "./components/CreateAccount";
 import Login from "./components/Login";
 import NotFound from "./components/NotFound";
+import Contact from "./components/Contact";
+
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <NavHeader />
       <Navbar />
       <div className="max-w-7xl mx-auto">
-         <NotFound /> 
+        <Contact />
+         {/* <NotFound />  */}
         {/* <Login /> */}
         {/* <CreateAccount /> */}
       </div>
